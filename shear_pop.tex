@@ -1,4 +1,4 @@
-\documentclass[aip,pop,amsmath,amssymb,reprint,superscriptaddress]{revtex4-1} %preprint version
+\documentclass[aip,pop,amsmath,amssymb,preprint,superscriptaddress]{revtex4-1} %preprint version
 \usepackage{graphicx}% Include figure files
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
@@ -278,6 +278,68 @@ The biasing circuit consists of a 0.2F, 450V capacitor bank that is pulse discha
 \includegraphics[width=8.5cm]{VbyBias}}
 \caption{\label{fig:VbyBias} blah}
 \end{figure}
+
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{IV_curves}}
+\caption{\label{fig:IV_curves} blah}
+\end{figure}
+
+An I-V curve of the measured current through the biasing circuit as a function of power supply voltage is shown in Fig~\ref{fig:IV_curves} for two different runs. The curve is Ohmic like for voltages above 30V, with a slope consistent with constant resistance on the order of 1.5\Omega s suggesting that the plasma part of the circuit has a resistance of approximately $0.7\Omega$. When the power supply voltage is less than the floating potential of the plasma (here about 30V), no current flows.
+
+The anode cathode discharge circuit of LAPD is similar to the biasing discharge circuit in that it is a capacitor bank controlled by an IGBT switch however, the current that is pulsed through this circuit is on the order of kiloamperes rather than the hundred or so amperes of the biasing circuit. The plasma discharge circuit is also generally isolated from chamber ground so that the discharge voltage difference between the anode and cathode, though fairly constant, can float in reference to chamber ground. For most plasma experiments on LAPD , this is  not a big issue as experiments are typically conducted in the core of the plasma and core potential versus boundary potentials do not play a significant role. However, in the biasing experiments, this voltage difference can potentially influence edge flows and so some attempt has been made to fix this issue.
+
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{an_cath}}
+\caption{\label{fig:an_cath} blah}
+\end{figure}
+
+In these experiments, the cathode is referenced to the plasma ground through a 25W, $2.3\Omega$ resistor with the expectation that the cathode will stay near ground. In practice, however, the cathode typically settles on a potential that is about 10-15V below chamber ground resulting in approximately 5 amperes of current flowing from ground to the cathode. This potential, though, has been observed at many voltages with respect to ground shifting in a range from 5V to 35V below ground over the course weeks and/or months between different run campaigns or even between days within a run campaign as seen in this particular data set shown in Fig.~\ref{fig:an_cath} where the first curve was taken approximately two days before the second data set.
+
+This result is somewhat unsurprising as anode-cathode circuit's reference to ground is dependant on the overall current's path to ground. Given a 5kA plasma discharge, approximately half of this current will complete the circuit loop through the anode while the other half will reach ground through the plasma and then through the chamber. A connection to ground on the order of a few 10s of amps is not likely to make much of a dent in this procedure, but methods for getting the cathode potential controllable are still underway. Fortunately, however, the limiter method of producing flow appears to not be affected by this variability in cathode potential with respect to ground. In these experiments, the flow under most scrutiny is the flow that appears in the region between the core and the limiters rather than between the core and the far chamber edge. Since the limiters are referenced directly to the cathode, the potential differences that matter are those between the cathode, anode and limiters rather than between any of these elements and ground.
+
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{LimAn_vs_PS}}
+\caption{\label{fig:LimAn_vs_PS} blah}
+\end{figure}
+
+We can show that while not terrible consistent from run to run, the variations in the cathode potential do not have a significant influence on the flow states under investigation. What about the consistency of the limiter potentials themselves? Figure x shows a comparison of limiter voltage as a function of power supply voltage for three different runs (Sets 1 and 2 are from the same run, two days apart, while Feb12 is from a run eight months after those of Set1 and 2). Though each is offset by a different cathode potential, it is clear that each curve is not exactly the same when plotted as a function of power supply bias. Furthermore, this difference is not alleviated when the cathode/anode potential is accounted for. Fig.~\ref{LimAn_vs_PS} shows the difference between anode and limiter voltages as a function of power supply voltage (recall that anode and cathode potential differences are constant with respect to bias). 
+
+Even in this case, the curves do not line up. However, an important observation can be made by looking at the density fluctuation data
+
+The data collection for the June 2011 run was done in two main parts. The first part took mach probe flow, triple probe isat, te, and vf, and Reynolds Stress measurements for two fields, 1000G and 500G. The second part took swept plasma potential and te data, 2D flux measurements and B-dot data. In the first set, the voltage of the anode, cathode, limiters, bias output and annulus were monitored while the second set took only cathode and limiter voltage data.
+
+In examining the fluctuation power of one of the 2D Flux probe isat tips from set 2 and comparing it to the power of the isat tip of the triple probe of set 1 it became apparent that there was a slight difference in the features of the contours. A contour plot of log fluctuation isat power as a function of bias number and frequency is show below first for the 2D flux probe data. The power is averaged over the radial range of 27cm to 31cm.
+
+It is clear that a peak in the fluctuation power occurs at about bias 7 which corresponds to the biasing state for the minimum amount of shearing observed. Thus this plot is consistent with the idea that decreased shearing results in more fluctuation power. As one moves away from this bias state in either direction, especially below 10kHz, the overall power decreases showing that power decreases with increased shear.  Comparing this plot to a similar one made using triple probe isat data from set 1 shows a slightly different picture.
+
+The appears to be an overall similarity in the changing power going up in Bias Number. There is a peak in fluctuation power at about Bias 9, two biases higher than the flux2D probe,  but then the power decreases with increasing bias. Evidence of a coherent mode is also seen in this plot, but it does not seem as distinct as in the Flux 2D data.  Also, there appears to be more power in the unbiased state (bias 0) in the range of 5-10kHz than there was in the flux2D data.
+
+Finally, we show the same plot for the density fluctuation data from the February 2012 run. 
+
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{flux_flucs}}
+\caption{\label{fig:flux_flucs} blah}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{trip_flucs}}
+\caption{\label{fig:trip_flucs} blah}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{flux_flucs_feb12}}
+\caption{\label{fig:flux_flucs_feb12} blah}
+\end{figure}
+
+If we compare the corresponding bias voltages at which the fluctuations peak with the voltage difference between the anode and limiters, as indicated by the dashed crosshairs, there finally appears a consistent metric across runs. That is, the peak density fluctuations, and as has been shown, the minimum shearing regime, occurs when the limiter voltages reaches a value approximately 5V below that of the anode. This presumable can be interpreted as the point where the plasma potential influenced by the anode/cathode boundary and the limiter boundary respectively are equal and thus no flow or flow shear is observed in the core/limiter edge region. In this way, regardless of how the anode-cathode circuit orients itself with respect to the chamber, or how the limiter potential situates itself with respect to the anode, the minimum shearing point can be located.
+
+\section{Comparison to Theory}
 
 Lastly, we add a comparison of our data to a simple theory, the
 Biglari-Diamond-Terry (BDT) model~\cite{biglari90}, which predicts a

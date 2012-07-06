@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (Web2C 2011) (format=pdflatex 2012.1.8)  5 JUL 2012 20:01
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (Web2C 2011) (format=pdflatex 2012.1.8)  5 JUL 2012 21:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"C:/Users/David Schaffner/Git/Shear_PoP/shear_pop.tex"
-(c:/Users/David Schaffner/Git/Shear_PoP/shear_pop.tex
+**"C:/Users/David Schaffner/Git/Turbflow_PoP/shear_pop.tex"
+(c:/Users/David Schaffner/Git/Turbflow_PoP/shear_pop.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman-x-2011-07-01, ngerman-x-2011-07-01, afrikaans, ancientgreek, ibycus, arabi
@@ -83,13 +83,13 @@ Class revtex4-1 Info: RevTeX society AIP selected on input line 67.
 Class revtex4-1 Info: Selecting journal pop on input line 7544.
 
 Using journal substyle pop.
-Class revtex4-1 Info: Reading file aps10pt4-1.rtx on input line 7547.
-(c:/texlive/2011/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
-File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
+Class revtex4-1 Info: Reading file aps12pt4-1.rtx on input line 7547.
+(c:/texlive/2011/texmf-dist/tex/latex/revtex/aps12pt4-1.rtx
+File: aps12pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
-Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
+Class revtex4-1 Info: RevTeX pointsize 12pt selected on input line 30.
 )
-Class revtex4-1 Info: Overriding 10pt on input line 7547.
+Class revtex4-1 Info: Overriding 12pt on input line 7547.
 
 (c:/texlive/2011/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -329,29 +329,429 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 39.
 
 (c:/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-Underfull \hbox (badness 1616) in paragraph at lines 51--69
-\OMS/cmsy/m/n/10 ^^X$\OT1/cmr/m/n/10 60cm di-am-e-ter cylin-dri-cal plasma pro-
-duced by a
+) [1{c:/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `burrell97' on page 2 undefined on input line 
+42.
+
+
+Package natbib Warning: Citation `terry00' on page 2 undefined on input line 42
+.
+
+
+Package natbib Warning: Citation `wagner82' on page 2 undefined on input line 4
+2.
+
+
+Package natbib Warning: Citation `burrell97' on page 2 undefined on input line 
+42.
+
+
+Package natbib Warning: Citation `terry00' on page 2 undefined on input line 42
+.
+
+
+Package natbib Warning: Citation `taylor89' on page 2 undefined on input line 4
+2.
+
+
+Package natbib Warning: Citation `weynants92' on page 2 undefined on input line
+ 42.
+
+
+Package natbib Warning: Citation `boedo00' on page 2 undefined on input line 42
+.
+
+
+Package natbib Warning: Citation `silva06' on page 2 undefined on input line 42
+.
+
+
+Package natbib Warning: Citation `sakai93' on page 2 undefined on input line 42
+.
+
+
+Package natbib Warning: Citation `maggs07' on page 2 undefined on input line 42
+.
+
+
+Package natbib Warning: Citation `carter09' on page 2 undefined on input line 4
+2.
+
+
+Package natbib Warning: Citation `burrell99' on page 2 undefined on input line 
+44.
+
+
+Package natbib Warning: Citation `tynan09' on page 2 undefined on input line 44
+.
+
+
+Package natbib Warning: Citation `biglari90' on page 2 undefined on input line 
+45.
+
+
+Package natbib Warning: Citation `kim04' on page 2 undefined on input line 45.
+
+
+Package natbib Warning: Citation `ware96' on page 2 undefined on input line 45.
+
+
+
+Package natbib Warning: Citation `tynan09' on page 2 undefined on input line 45
+.
+
+
+Package natbib Warning: Citation `amatucci96' on page 2 undefined on input line
+ 47.
+
+
+Package natbib Warning: Citation `jass72' on page 2 undefined on input line 47.
+
+
+[2]
+
+Package natbib Warning: Citation `gek91' on page 3 undefined on input line 51.
+
+
+Package natbib Warning: Citation `maggs07' on page 3 undefined on input line 67
+.
+
+
+Package natbib Warning: Citation `holland04' on page 3 undefined on input line 
+68.
+
+
+Package natbib Warning: Citation `maggs07' on page 3 undefined on input line 72
+.
+
+
+Package natbib Warning: Citation `carter09' on page 3 undefined on input line 7
+2.
+
+
+Package natbib Warning: Citation `zhou12' on page 3 undefined on input line 81.
+
+
+[3]
+
+LaTeX Warning: Reference `fig:velocity_flowshear' on page 4 undefined on input 
+line 89.
+
+Package epstopdf Info: Source file: <figure1.eps>
+(epstopdf)                    date: 2012-06-11 18:07:27
+(epstopdf)                    size: 762845 bytes
+(epstopdf)             Output file: <figure1-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-06-11 18:28:08
+(epstopdf)                    size: 94683 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure1-eps-converted-to.p
+df figure1.eps>
+(epstopdf)             \includegraphics on input line 108.
+Package epstopdf Info: Output file is already uptodate.
+<figure1-eps-converted-to.pdf, id=25, 728.7225pt x 1019.81pt>
+File: figure1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figure1-eps-converted-to.pdf>
+Package pdftex.def Info: figure1-eps-converted-to.pdf used on input line 108.
+(pdftex.def)             Requested size: 241.84842pt x 338.45235pt.
+
+
+LaTeX Warning: Reference `fig:velocity_flowshear' on page 4 undefined on input 
+line 117.
+
+
+LaTeX Warning: Reference `fig:velocity_flowshear' on page 4 undefined on input 
+line 127.
+
+Package epstopdf Info: Source file: <figure2.eps>
+(epstopdf)                    date: 2012-06-11 18:07:27
+(epstopdf)                    size: 393352 bytes
+(epstopdf)             Output file: <figure2-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-06-11 18:28:11
+(epstopdf)                    size: 41492 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure2-eps-converted-to.p
+df figure2.eps>
+(epstopdf)             \includegraphics on input line 132.
+Package epstopdf Info: Output file is already uptodate.
+<figure2-eps-converted-to.pdf, id=26, 779.91376pt x 409.53pt>
+File: figure2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figure2-eps-converted-to.pdf>
+Package pdftex.def Info: figure2-eps-converted-to.pdf used on input line 132.
+(pdftex.def)             Requested size: 241.84842pt x 126.99048pt.
+
+
+LaTeX Warning: Reference `fig:densgrad' on page 4 undefined on input line 136.
+
+[4] [5 <./figure1-eps-converted-to.pdf> <./figure2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figure3.eps>
+(epstopdf)                    date: 2012-06-11 18:07:27
+(epstopdf)                    size: 512651 bytes
+(epstopdf)             Output file: <figure3-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-06-11 18:28:13
+(epstopdf)                    size: 57562 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure3-eps-converted-to.p
+df figure3.eps>
+(epstopdf)             \includegraphics on input line 147.
+Package epstopdf Info: Output file is already uptodate.
+
+<figure3-eps-converted-to.pdf, id=60, 864.22874pt x 653.44125pt>
+File: figure3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figure3-eps-converted-to.pdf>
+Package pdftex.def Info: figure3-eps-converted-to.pdf used on input line 147.
+(pdftex.def)             Requested size: 241.84842pt x 182.8626pt.
+
+
+LaTeX Warning: Reference `fig:sheargradflux' on page 6 undefined on input line 
+156.
+
+
+Package natbib Warning: Citation `powers74' on page 6 undefined on input line 1
+66.
+
+[6 <./figure3-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:sheargradflux' on page 7 undefined on input line 
+177.
+
+
+LaTeX Warning: Reference `fig:sheargradflux' on page 7 undefined on input line 
+181.
+
+
+LaTeX Warning: Reference `eq:fluxint' on page 7 undefined on input line 187.
+
+
+LaTeX Warning: Reference `fig:powercontour' on page 7 undefined on input line 1
+90.
+
+
+LaTeX Warning: Reference `fig:powercontour' on page 7 undefined on input line 1
+98.
+
+Package epstopdf Info: Source file: <figure4.eps>
+(epstopdf)                    date: 2012-06-11 18:07:27
+(epstopdf)                    size: 804495 bytes
+(epstopdf)             Output file: <figure4-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-06-11 18:28:17
+(epstopdf)                    size: 147346 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure4-eps-converted-to.p
+df figure4.eps>
+(epstopdf)             \includegraphics on input line 206.
+Package epstopdf Info: Output file is already uptodate.
+<figure4-eps-converted-to.pdf, id=77, 742.775pt x 764.8575pt>
+File: figure4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figure4-eps-converted-to.pdf>
+Package pdftex.def Info: figure4-eps-converted-to.pdf used on input line 206.
+(pdftex.def)             Requested size: 241.84842pt x 249.0309pt.
+
+
+LaTeX Warning: Reference `fig:fluxcomps' on page 7 undefined on input line 210.
+
+
+
+LaTeX Warning: Reference `fig:fluxcomps' on page 7 undefined on input line 214.
+
+
+
+LaTeX Warning: Reference `fig:fluxcomps' on page 7 undefined on input line 217.
+
+
+
+LaTeX Warning: Reference `fig:fluxcomps' on page 7 undefined on input line 225.
+
+
+
+Package natbib Warning: Citation `carter09' on page 7 undefined on input line 2
+29.
+
+
+Package natbib Warning: Citation `terry01' on page 7 undefined on input line 23
+2.
+
+[7]
+Package epstopdf Info: Source file: <figure5.eps>
+(epstopdf)                    date: 2012-06-11 18:07:27
+(epstopdf)                    size: 823138 bytes
+(epstopdf)             Output file: <figure5-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-06-11 18:28:20
+(epstopdf)                    size: 99613 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure5-eps-converted-to.p
+df figure5.eps>
+(epstopdf)             \includegraphics on input line 238.
+Package epstopdf Info: Output file is already uptodate.
+ <figure5-eps-converted-to.pdf, id=84, 600.2425pt x 615.29875pt>
+File: figure5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figure5-eps-converted-to.pdf>
+Package pdftex.def Info: figure5-eps-converted-to.pdf used on input line 238.
+(pdftex.def)             Requested size: 241.84842pt x 247.90837pt.
+
+
+Package natbib Warning: Citation `biglari90' on page 8 undefined on input line 
+245.
+
+
+LaTeX Warning: Reference `fig:radcorr' on page 8 undefined on input line 255.
+
+[8 <./figure4-eps-converted-to.pdf>]
+<radcorr.pdf, id=104, 584.73657pt x 339.6409pt>
+File: radcorr.pdf Graphic file (type pdf)
+ <use radcorr.pdf>
+Package pdftex.def Info: radcorr.pdf used on input line 265.
+(pdftex.def)             Requested size: 241.84842pt x 140.47154pt.
+
+
+LaTeX Warning: Reference `fig:VbyBias' on page 9 undefined on input line 274.
+
+
+LaTeX Warning: Reference `fig:VbyBias' on page 9 undefined on input line 274.
+
+[9 <./figure5-eps-converted-to.pdf>]
+<VbyBias.png, id=123, 602.9727pt x 452.1693pt>
+File: VbyBias.png Graphic file (type png)
+ <use VbyBias.png>
+Package pdftex.def Info: VbyBias.png used on input line 278.
+(pdftex.def)             Requested size: 241.84842pt x 181.36127pt.
+
+<IV_curves.png, id=124, 602.85225pt x 452.1693pt>
+File: IV_curves.png Graphic file (type png)
+ <use IV_curves.png>
+Package pdftex.def Info: IV_curves.png used on input line 284.
+(pdftex.def)             Requested size: 241.84842pt x 181.39577pt.
+
+
+LaTeX Warning: Reference `fig:IV_curves' on page 10 undefined on input line 288
+.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.288 ...tant resistance on the order of 1.5\Omega
+                                                   s suggesting that the pla...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.288 ... a resistance of approximately $0.7\Omega
+                                                  $. When the power supply v...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (8.4432pt too wide) in paragraph at lines 288--289
+\OT1/cmr/m/n/12 1.5$
+\OML/cmm/m/it/12 ssuggestingthattheplasmapartofthecircuithasaresistanceofapprox
+imately$\OT1/cmr/m/n/12 0.7$
+$. When
  []
 
-! I can't write on file `shear_pop.pdf'.
-(Press Enter to retry, or Control-Z to exit; default file extension is `.pdf')
-Please type another file name for output
-! Emergency stop.
-<to be read again> 
-                   \endgroup \set@typeset@protect 
-l.69 
-     
-*** (job aborted, file error in nonstop mode)
+[10 <./radcorr.pdf>] <an_cath.png, id=149, 602.85225pt x 452.1693pt>
+File: an_cath.png Graphic file (type png)
 
- 
+<use an_cath.png>
+Package pdftex.def Info: an_cath.png used on input line 294.
+(pdftex.def)             Requested size: 241.84842pt x 181.39577pt.
+
+
+LaTeX Warning: Reference `fig:an_cath' on page 11 undefined on input line 298.
+
+[11 <./VbyBias.png> <./IV_curves.png>]
+<LimAn_vs_PS.png, id=153, 602.85225pt x 452.1693pt>
+File: LimAn_vs_PS.png Graphic file (type png)
+ <use LimAn_vs_PS.png>
+Package pdftex.def Info: LimAn_vs_PS.png used on input line 304.
+(pdftex.def)             Requested size: 241.84842pt x 181.39577pt.
+
+
+LaTeX Warning: Reference `LimAn_vs_PS' on page 12 undefined on input line 308.
+
+[12 <./an_cath.png>] [13 <./LimAn_vs_PS.png>]
+<flux_flucs.png, id=161, 584.78474pt x 301.3659pt>
+File: flux_flucs.png Graphic file (type png)
+ <use flux_flucs.png>
+Package pdftex.def Info: flux_flucs.png used on input line 324.
+(pdftex.def)             Requested size: 241.84842pt x 124.63225pt.
+
+<trip_flucs.png, id=162, 584.78474pt x 301.3659pt>
+File: trip_flucs.png Graphic file (type png)
+ <use trip_flucs.png>
+Package pdftex.def Info: trip_flucs.png used on input line 330.
+(pdftex.def)             Requested size: 241.84842pt x 124.63225pt.
+
+<flux_flucs_feb12.png, id=163, 584.78474pt x 301.3659pt>
+File: flux_flucs_feb12.png Graphic file (type png)
+
+<use flux_flucs_feb12.png>
+Package pdftex.def Info: flux_flucs_feb12.png used on input line 336.
+(pdftex.def)             Requested size: 241.84842pt x 124.63225pt.
+ [14 <./flux_flucs.png> <./trip_flucs.png>]
+
+Package natbib Warning: Citation `biglari90' on page 15 undefined on input line
+ 345.
+
+
+LaTeX Warning: Reference `fig:fluxcomps' on page 15 undefined on input line 348
+.
+
+
+Package natbib Warning: Citation `umansky11' on page 15 undefined on input line
+ 358.
+
+[15 <./flux_flucs_feb12.png>]
+
+LaTeX Warning: Reference `LastBibItem' on page 16 undefined on input line 374.
+
+No file shear_pop.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[16] (./shear_pop.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
+ ) 
 Here is how much of TeX's memory you used:
- 4450 strings out of 493629
- 57939 string characters out of 3146671
- 136195 words of memory out of 3000000
- 7682 multiletter control sequences out of 15000+200000
- 14893 words of font info for 55 fonts, out of 3000000 for 9000
+ 4606 strings out of 493629
+ 60894 string characters out of 3146671
+ 130600 words of memory out of 3000000
+ 7825 multiletter control sequences out of 15000+200000
+ 14771 words of font info for 54 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 38i,4n,27p,1386b,192s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 38i,7n,26p,1389b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
+live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2011/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2011/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2011/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2011/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi6.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/t
+exlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2011
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2011/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2011/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2011/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
+.pfb>
+Output written on shear_pop.pdf (16 pages, 15714084 bytes).
+PDF statistics:
+ 228 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+
