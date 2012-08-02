@@ -48,6 +48,8 @@ flow and flow shear to study flow driven instabilities (e.g. \cite{amatucci96,ja
 
 In this letter, we report on the first experiments in which external control of flow is used to document the response of turbulence and transport to a continuous variation of flow shear, including a zero shear state and a reversal of the flow direction. Shearing rates ($\gamma_{s}= \partial V_{\theta}/\partial r$, where $V_{\theta} = E_r/B$) from zero to up to five times the turbulent autocorrelation rate measured at zero flow shear $(\tau_{ac}^{-1})$ are achieved. Turbulent particle flux is reduced with increasing shearing rate, regardless of the direction of the flow or sign of the flow shear, with significant reduction occuring for $\gamma_{s} \sim \tau_{ac}^{-1}$.  The observed reduction in particle flux is dominated by a decrease in low-frequency ($f < 10$kHz) density fluctuation amplitude. For low frequency fluctuations, the crossphase between density and azimuthal electric field fluctuations remain near zero for all shearing rates.  With higher shear ($\gamma_{s} > \tau_{ac}^{-1}$) we observe the emergence of a coherent mode localized spatially in the region of strong flow. Fluctuations from this mode appear to increase density fluctuations above 10kHz, but do not appear to contribute to particle flux.   
 
+\section{Experimental Setup}
+
 The Large Plasma Device \cite{gek91} (LAPD) is a 17m long, $\sim$60cm diameter cylindrical plasma produced by a barium-oxide coated nickel
 cathode. In the experiments reported here, a plasma of density $\sim$$2 \times 10^{12}$ cm$^{-3}$ and peak temperature of ~8eV is
 produced in a uniform solenoidal magnetic field of 1000G.  Measurements of electron density, electron temperature, and potential (both plasma
@@ -161,6 +163,8 @@ L_n \rangle$) occurs continuously and gradually with increasing
 $\gamma_{s}$ and reaches saturation for $\gamma_{s} \approx \tau_{ac}^{-1}$ (a normalized $\gamma_{s}$ of 1).  The profile steepening
 appears to be largely independent of the direction of the flow (or radial electric field): IDD (filled points) and EDD (open points) flow cases follow the same trend when plotted against normalized shearing rate.
 
+Conversely, the scale length changes do not line up along a single curve if compared to flow rather than flow shear. Fig~\ref{fig:Lnvsflow} shows the same quantities of scale length versus the flow measured at the limiter edge for each bias. Points around the flow minimum are not symmetric; this is physically due to the fact that the minimum shearing rate does not coincide with the minimum flow point. Fortunately this difference allows us to observe the fact that is is flow shear, not necessarily flow, that establishes a maximual density gradient, or minimal confinement.
+
 Measured changes in turbulence and turbulent particle flux are
 consistent with the observed changes in the density profile.  The
 turbulent particle flux can be written\cite{powers74}:
@@ -174,7 +178,15 @@ $\gamma_{(n,E_\theta)}$ is the coherency between density and electric
 field; and $\phi_{(n,E_\theta)}$ is the cross-phase angle between
 density and electric field.
 
-Figure~\ref{fig:sheargradflux}(b) shows the spatially-averaged turbulent
+Fig~\ref{fig:particlefluxprofiles} shows profiles of these particle flux for varying bias states. The natural state represented by the black curve shows that measured flux peaks in the region of density gradient. As bias is increased, shearing increases and both peak and overall flux increases reaching a maximum at bias 7. Beyond this bias, the flux is generally decreased across the entire radius except for a very narrow region just inside the limiter edge.
+
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{particlefluxprofiles.eps}}
+\caption{\label{fig:sheargradflux}}
+\end{figure}
+
+In Figure~\ref{fig:sheargradflux}(b) shows the spatially-averaged turbulent
 particle flux as a function of normalized shearing rate.  The
 turbulent flux decreases continuously with increasing shearing rate;
 however the observed decrease is slightly slower than that observed
@@ -239,20 +251,44 @@ through changing plasma parameters, in particular magnetic field.
 \caption{\label{fig:fluxcomps} Components of particle flux versus shearing rate including $I_{\rm sat}$/density fluctuation power(a), electric field fluctuation power(b), crossphase(c) and coherency(d) with black points for low or all frequency, red for high only.}
 \end{figure}
 
+\section{Field Comparison}
+
+Plotting flux versus shearing rate for both 1000G and 500G, without normalizing either shearing rate to the autocorrelation rate, shows that flux decreases at nearly the same rate with shearing.
+
 \section{Correlation Planes}
 
-Flow shear is expected to produce radial decorrelation of turbulence,
-breaking up turbulent eddies into smaller radial scales~\cite{biglari90}.
-Two-dimensional turbulent correlation functions are computed using
+Some theories suggest that flow shear is expected to produce radial decorrelation of turbulence,
+breaking up turbulent eddies into smaller radial scales which in turn results in decreased turbulent fluctuations~\cite{biglari90}.
+We measure the radial correlation length in the plane of the plasma by computing a two-dimensional turbulent correlation functions sing
 two probes: one probe is held fixed in space (phase reference) and
-its signals are correlated against a second probe, axially separated
+correlating its signals against a second probe, axially separated
 from the first, which is moved shot-to-shot in a plane perpendicular
 to the magnetic field.  The radial correlation length, $\Delta r_c$,
 is derived from the radial width of the Hilbert transform of the
 correlation function (half-radial-width and half-maximum at the
-location of peak correlation).  The radial correlation length 
+location of peak correlation). We can just as easily extract a correlation length in the y-diretion, representing the extent in the azimuthal direction. This length can be used for calculating an estimate of the azimuthal wavenumber, $k_{\theta}$, as well as the azimuthal mode number, M.
+
+Fig.~\ref{fig:corrplanes} shows the cross-correlation contour plot for three shearing regimes---a)unbiased, IDD flow, b)no-shear, c)high flow/shear---normalized to the maximum correlation within each regime. The reference tip is located at 30cm, just beyond the edge of the limiter and within the spatial averaging region. The most striking change occurs between the no-shear state and a high shear state; the correlation function shifts from a fairly circular shape to radially narrowed and azimuthally elongated structure. In the high bias case, a series of structures can be seen located directly at the limiter edge. This is believed to be a mode-pattern caused by the mode that appears at high bias. Fig.~\ref{fig:filteredhighbias} shows the same correlation plane but with the frequencies at which the mode is observed removed leaving the correlation structure unaffected.
+
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{radcorr}}
+\caption{\label{fig:corrplanes} }
+\end{figure}
+
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{radcorr}}
+\caption{\label{fig:filteredhighbias} }
+\end{figure}
+
+Accumulating radial correlation lengths from correlation functions at various shearing states, it can be shown that the radial correlation length 
 decreases with increasing shearing, as shown in
-Fig.~\ref{fig:radcorr}.  At higher shearing rate, a coherent mode
+Fig.~\ref{fig:radcorr}.
+
+%Discuss rad correlation length vs grad scale length
+
+At higher shearing rate, a coherent mode
 pattern appears (as shown in the rightmost inset plot) in addition to
 the primary correlation peak (the coherent mode is
 pattern shifted inward of the reference probe location which was $r=30$cm).  The coherent
@@ -268,6 +304,30 @@ at higher shear, but the overall trend is a substantial reduction
   structure for 3 cases: unbiased (spontaneous flow), minimum flow
   shear and strong EDD flow.}
 \end{figure}
+
+
+
+\section{Wavenumber and Spectral Density}
+
+The azimuthal (or polodial) wavenumber can be extracted from the probe data using  a two-tipped Langmuir probe technique~\cite{beall82} (see Appendix?) and combined with frequency information to create spectral density contour plots and with radial distance to calculate distributions of polodial eigenmodes (M-numbers) present in the plasma. Polodial eigenmodes---M-numbers---are modified signficantly as a function of shearing rate as mode size, mode power and mode direction are all changed over the course of a scan. The countor of Fig.~\ref{fig:m_spec_vs_bias}a presents a summary of the M-number distribution as a function of bias with cuts show below in b) averaged over the same radial range as before, 27 to 31cm. Positive and negative values of M-number are inherited from their corresponding wavenumber, k, which can have a propgation direction. In this arragement, negative values correspond to modes which propagte in the electron diamagnetic drift direction while postive values are modes propagating in the ion diamagnetic drift direction. Thus, in the unbiased case, it is clear that the dominant modes in this section of the plasma are progagating primarily in the EDD which is consistant with pressure-gradient driven modes. Furthermore, modes of M-numbers 50-60 have the most power associated with them, which is consistant with the structure size found from correlation plane measurements.
+
+As shearing is zeroed, there is a trend toward more power in the EDD modes, again with the peak modes sitting in the range of 50-60. Again this is consistant with the fact that in zero flow and shearing regime, only pressure-gradient modes would be expected to be present. As the flow and shearing is increased just past the no flow region, significant changes begin to be apparent. First, there is an overall reduction in fluctuation power across all modes which reflects the decrease in $I_{sat}$ fluctuation power with shearing rate. Second, the modes that remain begin to be reduced in mode number and more power appears in positive M-numbers. This suggests that as the shearing is increased, the structure size of the turbulence is being elongated in the azimuthal direction which is again consistant with observed correlation plane data. Moreover, the appear of power in the IDD modes suggest the presense of instabilities other than pressure-gradient modes which are not confined to progate in the EDD---namely, this is highly suggested of the appearence of flow or flow shear driven modes such as rotational interchange modes or Kelvin-Helmholtz modes.
+
+M-number analysis sheds some light on the mode that appears in the strongly sheared regime. Fig.~\ref{fig:m_spec_vs_freq} shows a pure spectral density plot of isat mode frequency versus M-number. The power from each position and bias are stacked. While the majority of the power is located in the EDD propagating modes, there does appear to be a branch that juts out in the IDD. Comparing the frequencies of this branch with that of the mode observed in fluctution data and correlation plane data suggest that this mode propagates in the IDD and thus would not be a pressure-gradient driven mode.
+
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{m_spec_vs_bias}}
+\caption{\label{fig:m_spec_vs_bias} blah}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{m_spec_vs_freq}}
+\caption{\label{fig:m_spec_vs_freq} blah}
+\end{figure}
+
+
 
 \section{Biasing Circuit and Setup}
 
@@ -443,6 +503,9 @@ P.W. Terry and D.E. Newman and A.S. Ware, Phys. Rev. Lett. {\bf 87}, 185001  (20
 
 \bibitem{umansky11}
 M. Umansky {\it et~al.}, Phys. Plasmas {\bf 18},  055709  (2011).
+
+\bibitem{beall82}
+J.M. Beall and Y.C. Kim and E.J. Powers, J. Appl. Phys. {\bf 53}, 6, {1982}.
 
 \end{thebibliography}
 
