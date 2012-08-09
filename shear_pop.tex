@@ -111,6 +111,15 @@ experiments.
 \caption{\label{fig:velocity_flowshear} (a) Diagram of the LAPD device showing annular limiter.  (b) Velocity profiles using plasma potential from swept measurements. (c) Flow at the limiter edge (black, triangles) and mean shearing rate, averaged over $27 < r < 31$cm (red, circles).}
 \end{figure}
 
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{plaspot.png}}
+\caption{\label{fig:velocity_flowshear}}
+\end{figure}
+
+
+The effect of biasing the limiters appears to manifest as a change in the plasma potential in the region radially beyond the limiter edge. Fig.~\ref{plaspot.png} shows radial profiles of plasma potential with respect to cathode potential as a function of increasing bias voltage. The anode voltage is indicated as well. The change in potential between the core region (set by the anode) and the limiter region (set by the biasing) results in an electric field in the region of the limiter edge. 
+
 Spontaneous azimuthal rotation of the LAPD plasma is observed when the limiters are
 unbiased (here the limiters are observed to float to a
 potential $\sim 10$V below the anode).  In this state, an edge flow
@@ -182,8 +191,8 @@ Fig~\ref{fig:particlefluxprofiles} shows profiles of these particle flux for var
 
 \begin{figure}[!htbp]
 \centerline{
-\includegraphics[width=8.5cm]{particlefluxprofiles.eps}}
-\caption{\label{fig:sheargradflux}}
+\includegraphics[width=8.5cm]{particlefluxprofiles.png}}
+\caption{\label{fig:particlefluxprofiles}}
 \end{figure}
 
 In Figure~\ref{fig:sheargradflux}(b) shows the spatially-averaged turbulent
@@ -251,9 +260,91 @@ through changing plasma parameters, in particular magnetic field.
 \caption{\label{fig:fluxcomps} Components of particle flux versus shearing rate including $I_{\rm sat}$/density fluctuation power(a), electric field fluctuation power(b), crossphase(c) and coherency(d) with black points for low or all frequency, red for high only.}
 \end{figure}
 
+\section{Temperature Profiles}
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{tempprofs.png}}
+\caption{\label{fig:tempprofs}}
+\end{figure}
+
+The electron temperature profiles a measured using triple probe temperature measurements in the core region combined with swept probe temperature measurements in the limiter edge region. Profiles for three different cases were taken as shown in Fig.~\ref{fig:tempprofs}. The black curve shows a typical LAPD temperature profile with a core value of about 8eV with a profile that drops quickly beyond the limiter edge where field lines are no longer connected to the ionization source cathode. About 5cm beyond the cathode edge, the temperature settles to about 2eV consistant with temperatures that would not be expected to produce ionization. For a limiter bias that produces a no-shear, no-flow state, it can be seen that the temperature is modified only slightly peaking to about 9eV just before the limiter edge. This temperature increase is consistant with the expectation for radial biasing current to be present in this region which could increase the electron temperature locally. The temperature in this no-flow state decreases beyond the limiter edge at a slightly steeper rate, settling to about 2eV at about the same radial distance beyond the limiter edge as in the unbiased case. Finally, a strong limiter bias, producing a strong flow and shear shear state, correspondingly exhibits increased temperature in a similar region just before the limiter edge, maxing out at about 13eV. The increase temperature, again likely due to heating from the injected biasing current, is spread further in this state, increase the core temperature to about 10eV. Beyond the limiter edge, however, just as in the first two cases, the temperature drops substatially and sharply reaching 2eV at the same radial distance as the unbiased and slightly biased cases.
+
 \section{Field Comparison}
 
 Plotting flux versus shearing rate for both 1000G and 500G, without normalizing either shearing rate to the autocorrelation rate, shows that flux decreases at nearly the same rate with shearing.
+
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{flux1000Gvs500G.png}}
+\caption{\label{fig:fluxcomps}}
+\end{figure}
+
+\section{Momentum Balance}
+
+Beginning with the ion azimuthal momentum balance equation, 
+\begin{equation}
+nM\frac{d\vec{V}_{i}}{dt} = -\vec{\nabla}p_{i}+\vec{\nabla}\cdot \overleftrightarrow{\pi} + en(\vec{E}+\vec{V}_{i} \times \vec{B})+\vec{R}_{i}
+\label{eq:mombalance1}
+\end{equation}
+where $p_{i}$ is the ion pressure, $\overleftrightarrow{\pi}$ is the viscosity tensor and $\vec{R_{i}}$ represents the net force due to collisions with other species. We can assume that the plasma is highly collisional and not fully ionized as is typical for LAPD plasma. Then we can replace the viscosity term with $\vec{\nabla}\cdot\overleftrightarrow{\pi} = \mu_{ii}\nabla_{\perp}^{2}\vec{V}_{i}$ where $\mu_{ii}$ is the ion viscosity. The collisionality term, $\vec{R_{i}}$, is replaced with $-nM\nu_{in}\vec{V}_{i}$, where $\nu_{in}$ is the ion-neutral collision rate. Finally, we assume that the ion temperature is low enough that a gradient in the temperature can be ignored. On LAPD, an ion temperature of $\sim 1eV$ suggests this can be done. This leaves the balance equation in the form,
+\begin{equation}
+M\frac{d\vec{V}_{i}}{dt} \cong en(\vec{E}+\vec{V}_{i} \times \vec{B})+\vec{R}_{i}-M\nu_{in}\vec{V}_{i}+\mu_{ii}\nabla_{\perp}^{2}\vec{V}_{i}
+\label{eq:mombalance2}
+\end{equation}
+where the density has cancelled out. Using the following cylindrical identities,
+\begin{equation}
+\begin{split}
+(\vec{A} \cdot \vec{\nabla})\vec{B}\quad =  &\quad \hat{r}\left( A_{r}\frac{\partial B_{r}}{\partial r}+A_{\theta}\frac{1}{r}\frac{\partial B_r}{\partial \theta}+A_z\frac{\partial B_r}{\partial z}-\frac{1}{r}A_{\theta}B_{\theta}\right)+\\ 
+                                      &\quad \hat{\theta}\left(A_r\frac{\partial B_{\theta}}{\partial r}+A_{\theta}\frac{1}{r}\frac{\partial B_{\theta}}{\partial \theta}+A_z\frac{\partial B_{\theta}}{\partial z}+\frac{1}{r}A_{\theta}B_r\right)+\\
+                                      &\quad \hat{z}\left(A_r\frac{\partial B_z}{\partial r}+A_{\theta}\frac{1}{r}\frac{\partial B_z}{\partial \theta}+A_z\frac{\partial B_z}{\partial z}\right)
+\end{split}
+\label{eq:cylderiv}
+\end{equation}
+and
+\begin{equation}
+\begin{split}
+\nabla^{2}\vec{A}\quad = &\quad \hat{r}\left[\nabla^{2}A_r-\frac{1}{r^2}\left(A_r+2\frac{\partial A_{\theta}}{\partial \theta}\right)\right]+\\
+                    &\quad \hat{\theta}\left[\nabla^{2}A_{\theta}-\frac{1}{r^2}\left(A_{\theta}-2\frac{\partial A_r}{\partial \theta}\right)\right]+\\
+                    &\quad \hat{z}\left[\nabla^{2}A_z\right]
+\end{split}
+\label{eq:cyllap}
+\end{equation}
+the azimuthal components of the momentum equation are rewritten as,
+\begin{equation}
+\begin{aligned}
+&M\left(\frac{\partial V_{\theta}}{\partial t}+V_r\frac{\partial V_{\theta}}{\partial r}+\frac{V_{\theta}}{r}\frac{\partial V_{\theta}}{\partial \theta}+V_z\frac{\partial V_{\theta}}{\partial z}+\frac{V_{\theta}V_r}{r}\right)\\
+&= e(E_{\theta}-V_{r}B_z)-M\nu_{in}V_{\theta}\\
+&+M\mu_{ii}\left(\nabla^{2}V_{\theta}-\frac{1}{r^2}\left(V_{\theta}-2\frac{\partial V_r}{\partial \theta}\right)\right)
+\end{aligned}
+\label{eq:mombalance3}
+\end{equation}
+Next, a time average is taken of the entire expression. It is assumed these averages have only a radial dependence---that is, there is axial and azimuthal symmetry---and that there is a constant magnetic field while other quantities have the following mean and fluctuating components:
+\begin{equation}
+\begin{aligned}
+&V_{\theta} = \langle V_{\theta}\rangle + \tilde{V_{\theta}}\\
+&V_{r} = \langle V_{r}\rangle + \tilde{V_{r}}\\
+&V_{z} = \tilde{V_{z}}\\
+&E_{\theta} = \tilde{E_{\theta}}
+\end{aligned}
+\label{eq:flucsquant}
+\end{equation}
+Cancelling terms due to azimuthal and axial symmetry as well as assuming both a steady-state plasma and that fluctuating quantites time-average to zero, the momentum balance equation becomes
+\begin{equation}
+\begin{aligned}
+&\biggl \langle \left(\tilde{V_r}\frac{\partial \tilde{V_{\theta}}}{\partial r}+\frac{\tilde{V_{\theta}}}{r}\frac{\partial \tilde{V_{\theta}}}{\partial \theta}+\tilde{V_z}\frac{\partial \tilde{V_{\theta}}}{\partial z}+\frac{\tilde{V_r}\tilde{V_{\theta}}}{r}\right)+\langle V_r \rangle \frac{\partial \langle V_{\theta} \rangle}{\partial r}+\frac{\langle V_r \rangle \langle V_{\theta}\rangle}{r}\biggr\rangle\\
+&=-\nu_{in}\langle V_{\theta}\rangle + \mu_{ii}\left(\frac{\partial^{2}\langle V_{\theta}\rangle}{\partial r^2}+\frac{1}{r}\frac{\partial \langle V_{\theta}\rangle}{\partial r}-\frac{\langle V_{\theta}\rangle}{r^2}\right)-\frac{e}{M}\langle V_r \rangle B
+\end{aligned}
+\label{eq:mombalance4}
+\end{equation}
+If we assume a condition of incompressiblity in the plasma, the quantity in the parenthesis on the left hand size of ~\ref{mombalance4} can be written in terms of the gradient of a Reynolds Stress, $R_s = \langle \tilde{V_r} \tilde{V_{\theta}}\rangle$ so that finally the momentum balance equation becomes
+\begin{equation}
+\begin{aligned}
+&\frac{1}{r^2}\frac{\partial}{\partial r}(r^2\langle \tilde{V_r} \tilde{V_{\theta}}\rangle)+\langle V_r \rangle \frac{\partial \langle V_{\theta} \rangle}{\partial r}+\frac{\langle V_r \rangle \langle V_{\theta}\rangle}{r}\\
+&=-\nu_{in}\langle V_{\theta}\rangle + \mu_{ii}\left(\frac{\partial^{2}\langle V_{\theta}\rangle}{\partial r^2}+\frac{1}{r}\frac{\partial \langle V_{\theta}\rangle}{\partial r}-\frac{\langle V_{\theta}\rangle}{r^2}\right)-\frac{e}{M}\langle V_r \rangle B
+\end{aligned}
+\label{eq:mombalance5}
+\end{equation}
+
 
 \section{Correlation Planes}
 
@@ -270,17 +361,17 @@ location of peak correlation). We can just as easily extract a correlation lengt
 
 Fig.~\ref{fig:corrplanes} shows the cross-correlation contour plot for three shearing regimes---a)unbiased, IDD flow, b)no-shear, c)high flow/shear---normalized to the maximum correlation within each regime. The reference tip is located at 30cm, just beyond the edge of the limiter and within the spatial averaging region. The most striking change occurs between the no-shear state and a high shear state; the correlation function shifts from a fairly circular shape to radially narrowed and azimuthally elongated structure. In the high bias case, a series of structures can be seen located directly at the limiter edge. This is believed to be a mode-pattern caused by the mode that appears at high bias. Fig.~\ref{fig:filteredhighbias} shows the same correlation plane but with the frequencies at which the mode is observed removed leaving the correlation structure unaffected.
 
-\begin{figure}[!htbp]
-\centerline{
-\includegraphics[width=8.5cm]{radcorr}}
-\caption{\label{fig:corrplanes} }
-\end{figure}
+%\begin{figure}[!htbp]
+%\centerline{
+%\includegraphics[width=8.5cm]{corrplanes.png}}
+%\caption{\label{fig:corrplanes} }
+%\end{figure}
 
-\begin{figure}[!htbp]
-\centerline{
-\includegraphics[width=8.5cm]{radcorr}}
-\caption{\label{fig:filteredhighbias} }
-\end{figure}
+%\begin{figure}[!htbp]
+%\centerline{
+%\includegraphics[width=8.5cm]{radcorr}}
+%\caption{\label{fig:filteredhighbias} }
+%\end{figure}
 
 Accumulating radial correlation lengths from correlation functions at various shearing states, it can be shown that the radial correlation length 
 decreases with increasing shearing, as shown in
@@ -345,7 +436,7 @@ The biasing circuit consists of a 0.2F, 450V capacitor bank that is pulse discha
 \caption{\label{fig:IV_curves} blah}
 \end{figure}
 
-An I-V curve of the measured current through the biasing circuit as a function of power supply voltage is shown in Fig~\ref{fig:IV_curves} for two different runs. The curve is Ohmic like for voltages above 30V, with a slope consistent with constant resistance on the order of 1.5\Omega s suggesting that the plasma part of the circuit has a resistance of approximately $0.7\Omega$. When the power supply voltage is less than the floating potential of the plasma (here about 30V), no current flows.
+An I-V curve of the measured current through the biasing circuit as a function of power supply voltage is shown in Fig~\ref{fig:IV_curves} for two different runs. The curve is Ohmic like for voltages above 30V, with a slope consistent with constant resistance on the order of $1.5\Omega_{s}$ suggesting that the plasma part of the circuit has a resistance of approximately $0.7\Omega$. When the power supply voltage is less than the floating potential of the plasma (here about 30V), no current flows.
 
 The anode cathode discharge circuit of LAPD is similar to the biasing discharge circuit in that it is a capacitor bank controlled by an IGBT switch however, the current that is pulsed through this circuit is on the order of kiloamperes rather than the hundred or so amperes of the biasing circuit. The plasma discharge circuit is also generally isolated from chamber ground so that the discharge voltage difference between the anode and cathode, though fairly constant, can float in reference to chamber ground. For most plasma experiments on LAPD , this is  not a big issue as experiments are typically conducted in the core of the plasma and core potential versus boundary potentials do not play a significant role. However, in the biasing experiments, this voltage difference can potentially influence edge flows and so some attempt has been made to fix this issue.
 
