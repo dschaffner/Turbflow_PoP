@@ -140,6 +140,14 @@ quantities shown in this paper are averaged over the same region in space.
 
 \begin{figure}[!htbp]
 \centerline{
+\includegraphics[width=8.5cm]{densprof}}
+\caption{\label{fig:densprof} Denisty profiles.}
+\end{figure}
+
+Fig.~\ref{fig:densprof} shows the density profiles for a range of limiter biases. It is obvious that as the bias reaches its highest values, the density gradient is signficantly steepened. Less obvious, but definitely important is that the profile begins in a slightly steeped state (black) but then begins to shallow out when the limiter bias approaches the anode bias (red) before showing significant steepening in the high bias region. This change can be quantified by calculating the average denssity gradient length scale the radial region indicated.
+
+\begin{figure}[!htbp]
+\centerline{
 \includegraphics[width=8.5cm]{figure2.eps}}
 \caption{\label{fig:densgrad} Density gradient length scale versus limiter bias. Inset shows density profile at three bias values.}
 \end{figure}
@@ -406,6 +414,12 @@ As shearing is zeroed, there is a trend toward more power in the EDD modes, agai
 
 M-number analysis sheds some light on the mode that appears in the strongly sheared regime. Fig.~\ref{fig:m_spec_vs_freq} shows a pure spectral density plot of isat mode frequency versus M-number. The power from each position and bias are stacked. While the majority of the power is located in the EDD propagating modes, there does appear to be a branch that juts out in the IDD. Comparing the frequencies of this branch with that of the mode observed in fluctution data and correlation plane data suggest that this mode propagates in the IDD and thus would not be a pressure-gradient driven mode.
 
+This same analysis can be cast in terms of a wavenumber versus frequency rather than M-number so that a dispersion relation and phase velocity can be determined. Fig.~\ref{fig:k_spec_vs_freq_lowbias} and Fig.~\ref{fig:k_spec_vs_freq_highbias} show the summed spectral density plots for low biases (Biases 0-13) and high biases (Biases 14-29). Clearly separate dispersion relations can be calculated for high and low bias regimes, or in other words, regimes for flow in either azimuthal direction. A fit to the peak power wavenumber for each frequency bin gives and estimate of the phase velocity. For low bias, this phase velocity is approximately $1.8 \times 10^4 cm/s$ and in the EDD direction while similar fit for high bias yields $v_phase = 2 \times 10^2 cm/s$ in the IDD direction.
+
+Again, this wavenumber spectral data is highly suggestive of a flow or flow shear driven mode. We can also look at the ratio of floating potential fluctuations to density fluctations as a metric for determining mode type. Fig.~\ref{vf_vs_dens_flucs} shows profiles of the ratio $\| \frac{\tilde{V_{f}}}{T_{e}} / \frac{\tilde{n}}{n}\|$, a measure of the relative power in $V_f$ fluctuations versus density fluctuations. For all biases, the ratio hovers around a ratio of 1.0. This appears to limit the type of instability present generally to either rotational interchange or resistive drift waves; that is, the shearing rates produced in all the flow regimes do not appear to be strong enough to drive Kelvin-Helmholtz modes. At the highest biases and near where the flow peaks (at the limiter edge) the ratio begins to drop to 0.5, suggesting a dominance of density fluctuations over potential fluctuations. This is more consistant with the presence of a coherent drift wave rather than a rotational interchange~\cite{jassby72}.
+
+Other methods of distinguishing between drift waves and rotional interchange waves can be by looking at the predicted frequency of the wave, the raidal localization of the wave, and the relative phase shift between vf and density.
+
 \begin{figure}[!htbp]
 \centerline{
 \includegraphics[width=8.5cm]{m_spec_vs_bias}}
@@ -418,7 +432,23 @@ M-number analysis sheds some light on the mode that appears in the strongly shea
 \caption{\label{fig:m_spec_vs_freq} blah}
 \end{figure}
 
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{k_spec_vs_freq_lowbias}}
+\caption{\label{fig:k_spec_vs_bias_lowbias} blah}
+\end{figure}
 
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{k_spec_vs_freq_highbias}}
+\caption{\label{fig:k_spec_vs_freq_highbias} blah}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{vf_vs_dens_flucs}}
+\caption{\label{fig:vf_vs_dens_flucs} blah}
+\end{figure}
 
 \section{Biasing Circuit and Setup}
 
@@ -491,6 +521,13 @@ Finally, we show the same plot for the density fluctuation data from the Februar
 If we compare the corresponding bias voltages at which the fluctuations peak with the voltage difference between the anode and limiters, as indicated by the dashed crosshairs, there finally appears a consistent metric across runs. That is, the peak density fluctuations, and as has been shown, the minimum shearing regime, occurs when the limiter voltages reaches a value approximately 5V below that of the anode. This presumable can be interpreted as the point where the plasma potential influenced by the anode/cathode boundary and the limiter boundary respectively are equal and thus no flow or flow shear is observed in the core/limiter edge region. In this way, regardless of how the anode-cathode circuit orients itself with respect to the chamber, or how the limiter potential situates itself with respect to the anode, the minimum shearing point can be located.
 
 \section{Comparison to Theory}
+
+Various theories have been proposed and elaborated as to the quantitative effect of flow shear on fluctuations levels as well as particle flux. Given the fine resultion of this dataset in both weak and strong shearing regimes, a comparison to these various theories can be made. A summary of the various theories is presented.
+
+BDT says shear^(-2/3) scaling for fluctuations
+Shiang says shear^(-2); updated by Zhang and Mahajan to be 1-(1/shear^2) for low shear, shear^(-2) for arbitrary shear and shear^(-2/3) if Diffusion coeffiect, D, is insensitive to turbulence.
+
+Ware extended the study to flux suggesting that particle flux $\sim$ shear^(-2) while Terry 01 says that flux decrease with 1/shear for amplitude and 1/shear^3 for crossphase 
 
 Lastly, we add a comparison of our data to a simple theory, the
 Biglari-Diamond-Terry (BDT) model~\cite{biglari90}, which predicts a

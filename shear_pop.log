@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (Web2C 2011) (format=pdflatex 2012.1.8)  8 AUG 2012 19:30
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (Web2C 2011) (format=pdflatex 2012.1.8)  15 AUG 2012 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -364,6 +364,11 @@ Package pdftex.def Info: plaspot.png used on input line 116.
 LaTeX Warning: Reference `plaspot.png' on page 4 undefined on input line 121.
 
 [4] [5 <./figure1-eps-converted-to.pdf> <./plaspot.png>]
+<densprof.png, id=48, 584.30295pt x 338.82585pt>
+File: densprof.png Graphic file (type png)
+ <use densprof.png>
+Package pdftex.def Info: densprof.png used on input line 143.
+(pdftex.def)             Requested size: 241.84842pt x 140.24303pt.
 Package epstopdf Info: Source file: <figure2.eps>
 (epstopdf)                    date: 2012-06-11 18:07:27
 (epstopdf)                    size: 393352 bytes
@@ -372,14 +377,14 @@ Package epstopdf Info: Source file: <figure2.eps>
 (epstopdf)                    size: 41492 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure2-eps-converted-to.p
 df figure2.eps>
-(epstopdf)             \includegraphics on input line 143.
+(epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure2-eps-converted-to.pdf, id=48, 779.91376pt x 409.53pt>
+<figure2-eps-converted-to.pdf, id=49, 779.91376pt x 409.53pt>
 File: figure2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure2-eps-converted-to.pdf>
-Package pdftex.def Info: figure2-eps-converted-to.pdf used on input line 143.
+Package pdftex.def Info: figure2-eps-converted-to.pdf used on input line 151.
 (pdftex.def)             Requested size: 241.84842pt x 126.99048pt.
 Package epstopdf Info: Source file: <figure3.eps>
 (epstopdf)                    date: 2012-06-11 18:07:27
@@ -389,26 +394,27 @@ Package epstopdf Info: Source file: <figure3.eps>
 (epstopdf)                    size: 57562 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure3-eps-converted-to.p
 df figure3.eps>
-(epstopdf)             \includegraphics on input line 158.
+(epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure3-eps-converted-to.pdf, id=49, 864.22874pt x 653.44125pt>
+<figure3-eps-converted-to.pdf, id=50, 864.22874pt x 653.44125pt>
 File: figure3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure3-eps-converted-to.pdf>
-Package pdftex.def Info: figure3-eps-converted-to.pdf used on input line 158.
+Package pdftex.def Info: figure3-eps-converted-to.pdf used on input line 166.
 (pdftex.def)             Requested size: 241.84842pt x 182.8626pt.
- [6 <./figure2-eps-converted-to.pdf>]
+ [6 <./densprof.png>]
 
-LaTeX Warning: Reference `fig:Lnvsflow' on page 7 undefined on input line 175.
+LaTeX Warning: Reference `fig:Lnvsflow' on page 7 undefined on input line 183.
 
-[7 <./figure3-eps-converted-to.pdf>]
+[7 <./figure2-eps-converted-to.pdf> <./figure3-eps-converted-to.pdf>]
 <particlefluxprofiles.png, id=82, 584.30295pt x 376.5267pt>
 File: particlefluxprofiles.png Graphic file (type png)
 
 <use particlefluxprofiles.png>
-Package pdftex.def Info: particlefluxprofiles.png used on input line 194.
+Package pdftex.def Info: particlefluxprofiles.png used on input line 202.
 (pdftex.def)             Requested size: 241.84842pt x 155.84775pt.
+ [8 <./particlefluxprofiles.png>]
 Package epstopdf Info: Source file: <figure4.eps>
 (epstopdf)                    date: 2012-06-11 18:07:27
 (epstopdf)                    size: 804495 bytes
@@ -417,16 +423,16 @@ Package epstopdf Info: Source file: <figure4.eps>
 (epstopdf)                    size: 147346 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure4-eps-converted-to.p
 df figure4.eps>
-(epstopdf)             \includegraphics on input line 227.
+(epstopdf)             \includegraphics on input line 235.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure4-eps-converted-to.pdf, id=83, 742.775pt x 764.8575pt>
+<figure4-eps-converted-to.pdf, id=87, 742.775pt x 764.8575pt>
 File: figure4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure4-eps-converted-to.pdf>
-Package pdftex.def Info: figure4-eps-converted-to.pdf used on input line 227.
+Package pdftex.def Info: figure4-eps-converted-to.pdf used on input line 235.
 (pdftex.def)             Requested size: 241.84842pt x 249.0309pt.
- [8 <./particlefluxprofiles.png>]
+ [9 <./figure4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figure5.eps>
 (epstopdf)                    date: 2012-06-11 18:07:27
 (epstopdf)                    size: 823138 bytes
@@ -435,115 +441,149 @@ Package epstopdf Info: Source file: <figure5.eps>
 (epstopdf)                    size: 99613 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure5-eps-converted-to.p
 df figure5.eps>
-(epstopdf)             \includegraphics on input line 259.
+(epstopdf)             \includegraphics on input line 267.
 Package epstopdf Info: Output file is already uptodate.
 
-<figure5-eps-converted-to.pdf, id=88, 600.2425pt x 615.29875pt>
+<figure5-eps-converted-to.pdf, id=108, 600.2425pt x 615.29875pt>
 File: figure5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure5-eps-converted-to.pdf>
-Package pdftex.def Info: figure5-eps-converted-to.pdf used on input line 259.
+Package pdftex.def Info: figure5-eps-converted-to.pdf used on input line 267.
 (pdftex.def)             Requested size: 241.84842pt x 247.90837pt.
- [9 <./figure4-eps-converted-to.pdf>]
-<tempprofs.png, id=108, 584.30295pt x 376.5267pt>
+
+<tempprofs.png, id=109, 584.30295pt x 376.5267pt>
 File: tempprofs.png Graphic file (type png)
  <use tempprofs.png>
-Package pdftex.def Info: tempprofs.png used on input line 266.
+Package pdftex.def Info: tempprofs.png used on input line 274.
 (pdftex.def)             Requested size: 241.84842pt x 155.84775pt.
-
-
-LaTeX Warning: Reference `fig:tempprofs' on page 10 undefined on input line 270
-.
-
-[10 <./figure5-eps-converted-to.pdf> <./tempprofs.png>]
-<flux1000Gvs500G.png, id=127, 584.30295pt x 602.37045pt>
+ [10]
+[11 <./figure5-eps-converted-to.pdf> <./tempprofs.png>]
+<flux1000Gvs500G.png, id=131, 584.30295pt x 602.37045pt>
 File: flux1000Gvs500G.png Graphic file (type png)
 
 <use flux1000Gvs500G.png>
-Package pdftex.def Info: flux1000Gvs500G.png used on input line 278.
+Package pdftex.def Info: flux1000Gvs500G.png used on input line 286.
 (pdftex.def)             Requested size: 241.84842pt x 249.32649pt.
- [11] [12 <./flux1000Gvs500G.png>]
+ [12 <./flux1000Gvs500G.png>] [13]
 
-LaTeX Warning: Reference `mombalance4' on page 13 undefined on input line 339.
+LaTeX Warning: Reference `mombalance4' on page 14 undefined on input line 347.
 
-[13]
+[14]
 
-LaTeX Warning: Reference `fig:corrplanes' on page 14 undefined on input line 36
-2.
+LaTeX Warning: Reference `fig:corrplanes' on page 15 undefined on input line 37
+0.
 
 
-LaTeX Warning: Reference `fig:filteredhighbias' on page 14 undefined on input l
-ine 362.
+LaTeX Warning: Reference `fig:filteredhighbias' on page 15 undefined on input l
+ine 370.
 
-<radcorr.png, id=138, 584.78474pt x 339.06676pt>
+<radcorr.png, id=142, 584.78474pt x 339.06676pt>
 File: radcorr.png Graphic file (type png)
  <use radcorr.png>
-Package pdftex.def Info: radcorr.png used on input line 392.
+Package pdftex.def Info: radcorr.png used on input line 400.
 (pdftex.def)             Requested size: 241.84842pt x 140.22374pt.
- [14]
-[15 <./radcorr.png>] <m_spec_vs_bias.png, id=145, 482.2818pt x 385.80135pt>
+ [15]
+[16 <./radcorr.png>]
+
+LaTeX Warning: Reference `fig:k_spec_vs_freq_lowbias' on page 17 undefined on i
+nput line 417.
+
+
+LaTeX Warning: Reference `vf_vs_dens_flucs' on page 17 undefined on input line 
+419.
+
+
+Package natbib Warning: Citation `jassby72' on page 17 undefined on input line 
+419.
+
+<m_spec_vs_bias.png, id=149, 482.2818pt x 385.80135pt>
 File: m_spec_vs_bias.png Graphic file (type png)
 
 <use m_spec_vs_bias.png>
-Package pdftex.def Info: m_spec_vs_bias.png used on input line 411.
+Package pdftex.def Info: m_spec_vs_bias.png used on input line 425.
 (pdftex.def)             Requested size: 241.84842pt x 193.47122pt.
 
-<m_spec_vs_freq.png, id=146, 482.2818pt x 385.80135pt>
+<m_spec_vs_freq.png, id=150, 482.2818pt x 385.80135pt>
 File: m_spec_vs_freq.png Graphic file (type png)
 
 <use m_spec_vs_freq.png>
-Package pdftex.def Info: m_spec_vs_freq.png used on input line 417.
+Package pdftex.def Info: m_spec_vs_freq.png used on input line 431.
 (pdftex.def)             Requested size: 241.84842pt x 193.47122pt.
- [16 <./m_spec_vs_bias.png>]
-<VbyBias.png, id=150, 602.9727pt x 452.1693pt>
-File: VbyBias.png Graphic file (type png)
- <use VbyBias.png>
-Package pdftex.def Info: VbyBias.png used on input line 429.
-(pdftex.def)             Requested size: 241.84842pt x 181.36127pt.
 
-<IV_curves.png, id=151, 602.85225pt x 452.1693pt>
+<k_spec_vs_freq_lowbias.png, id=151, 481.92046pt x 385.56046pt>
+File: k_spec_vs_freq_lowbias.png Graphic file (type png)
+
+<use k_spec_vs_freq_lowbias.png>
+Package pdftex.def Info: k_spec_vs_freq_lowbias.png used on input line 437.
+(pdftex.def)             Requested size: 241.84842pt x 193.49161pt.
+
+<k_spec_vs_freq_highbias.png, id=152, 481.92046pt x 385.56046pt>
+File: k_spec_vs_freq_highbias.png Graphic file (type png)
+
+<use k_spec_vs_freq_highbias.png>
+Package pdftex.def Info: k_spec_vs_freq_highbias.png used on input line 443.
+(pdftex.def)             Requested size: 241.84842pt x 193.49161pt.
+
+<vf_vs_dens_flucs.png, id=153, 584.30295pt x 338.82585pt>
+File: vf_vs_dens_flucs.png Graphic file (type png)
+
+<use vf_vs_dens_flucs.png>
+Package pdftex.def Info: vf_vs_dens_flucs.png used on input line 449.
+(pdftex.def)             Requested size: 241.84842pt x 140.24303pt.
+ [17] <VbyBias.png, id=158, 602.9727pt x 452.1693pt>
+File: VbyBias.png Graphic file (type png)
+
+<use VbyBias.png>
+Package pdftex.def Info: VbyBias.png used on input line 459.
+(pdftex.def)             Requested size: 241.84842pt x 181.36127pt.
+ [18 <./m_spec_vs_bias.png> <./m_spec_vs_freq.png>] [19 <./k_spec_vs_freq_lowbi
+as.png> <./k_spec_vs_freq_highbias.png> <./vf_vs_dens_flucs.png>] <IV_curves.pn
+g, id=166, 602.85225pt x 452.1693pt>
 File: IV_curves.png Graphic file (type png)
  <use IV_curves.png>
-Package pdftex.def Info: IV_curves.png used on input line 435.
+Package pdftex.def Info: IV_curves.png used on input line 465.
 (pdftex.def)             Requested size: 241.84842pt x 181.39577pt.
- [17 <./m_spec_vs_freq.png>] <an_cath.png, id=155, 602.85225pt x 452.1693pt>
+
+[20 <./VbyBias.png> <./IV_curves.png>]
+<an_cath.png, id=170, 602.85225pt x 452.1693pt>
 File: an_cath.png Graphic file (type png)
-
-<use an_cath.png>
-Package pdftex.def Info: an_cath.png used on input line 445.
+ <use an_cath.png>
+Package pdftex.def Info: an_cath.png used on input line 475.
 (pdftex.def)             Requested size: 241.84842pt x 181.39577pt.
- [18 <./VbyBias.png> <./IV_curves.png>]
-<LimAn_vs_PS.png, id=159, 602.85225pt x 452.1693pt>
+ [21 <./an_cath.png>] <LimAn_vs_PS.png, id=174, 602.85225pt x 452.1693pt>
 File: LimAn_vs_PS.png Graphic file (type png)
- <use LimAn_vs_PS.png>
-Package pdftex.def Info: LimAn_vs_PS.png used on input line 455.
+
+<use LimAn_vs_PS.png>
+Package pdftex.def Info: LimAn_vs_PS.png used on input line 485.
 (pdftex.def)             Requested size: 241.84842pt x 181.39577pt.
 
 
-LaTeX Warning: Reference `LimAn_vs_PS' on page 19 undefined on input line 459.
+LaTeX Warning: Reference `LimAn_vs_PS' on page 22 undefined on input line 489.
 
-[19 <./an_cath.png>] [20 <./LimAn_vs_PS.png>]
-<flux_flucs.png, id=167, 584.78474pt x 301.3659pt>
+[22 <./LimAn_vs_PS.png>] <flux_flucs.png, id=178, 584.78474pt x 301.3659pt>
 File: flux_flucs.png Graphic file (type png)
- <use flux_flucs.png>
-Package pdftex.def Info: flux_flucs.png used on input line 475.
-(pdftex.def)             Requested size: 241.84842pt x 124.63225pt.
 
-<trip_flucs.png, id=168, 584.78474pt x 301.3659pt>
+<use flux_flucs.png>
+Package pdftex.def Info: flux_flucs.png used on input line 505.
+(pdftex.def)             Requested size: 241.84842pt x 124.63225pt.
+ <trip_flucs.png, id=179, 584.78474pt x 301.3659pt>
 File: trip_flucs.png Graphic file (type png)
- <use trip_flucs.png>
-Package pdftex.def Info: trip_flucs.png used on input line 481.
-(pdftex.def)             Requested size: 241.84842pt x 124.63225pt.
 
-<flux_flucs_feb12.png, id=169, 584.78474pt x 301.3659pt>
+<use trip_flucs.png>
+Package pdftex.def Info: trip_flucs.png used on input line 511.
+(pdftex.def)             Requested size: 241.84842pt x 124.63225pt.
+ <flux_flucs_feb12.png, id=180, 584.78474pt x 301.3659pt>
 File: flux_flucs_feb12.png Graphic file (type png)
 
 <use flux_flucs_feb12.png>
-Package pdftex.def Info: flux_flucs_feb12.png used on input line 487.
+Package pdftex.def Info: flux_flucs_feb12.png used on input line 517.
 (pdftex.def)             Requested size: 241.84842pt x 124.63225pt.
- [21 <./flux_flucs.png> <./trip_flucs.png>] [22 <./flux_flucs_feb12.png>]
+ [23] [24 <./flux_flucs.png> <./trip_flucs.png> <./flux_flucs_feb12.png>] [25]
 No file shear_pop.bbl.
-[23] (./shear_pop.aux)
+
+Package natbib Warning: There were undefined citations.
+
+[26] (./shear_pop.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -552,32 +592,33 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4657 strings out of 493629
- 61860 string characters out of 3146671
- 139435 words of memory out of 3000000
- 7870 multiletter control sequences out of 15000+200000
+ 4685 strings out of 493629
+ 62520 string characters out of 3146671
+ 140514 words of memory out of 3000000
+ 7894 multiletter control sequences out of 15000+200000
  14771 words of font info for 54 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  38i,18n,27p,1835b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
-live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2011
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2011/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2011/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2011/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi8.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
-.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/te
-xlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/201
-1/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2011/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2011/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2011/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy8.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmti12.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/symb
-ols/msam10.pfb>
-Output written on shear_pop.pdf (23 pages, 9875287 bytes).
+live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2011/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2011/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2011/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2011/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi6.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/t
+exlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2011
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2011/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2011/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2011/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
+.pfb>
+Output written on shear_pop.pdf (26 pages, 17724967 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 249 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
